@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.breed-select {
+  margin-inline: auto;
+  max-width: 500px;
+}
+
+.cat-info {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.about {
+  padding: 15px;
+}

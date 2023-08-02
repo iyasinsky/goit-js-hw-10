@@ -1,0 +1,18 @@
+{
+  "name": "goit-js-hw-10",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "notiflix": "^3.2.6",
+    "slim-select": "^2.6.0"
+  }
+}
