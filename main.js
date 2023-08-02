@@ -1,6 +1,6 @@
 import refs from './refs';
-import CatApi from './cat-api';
 import { createSelectOptins } from './select-options';
+import CatApi from './cat-api';
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
