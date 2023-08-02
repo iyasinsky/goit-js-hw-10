@@ -12,3 +12,4 @@ Notiflix needs to be appended to the "<`+d+'>" element, but you called it before
       <p>${t}</p>
     </div>
     `}
+//# sourceMappingURL=main-20434376.js.map
