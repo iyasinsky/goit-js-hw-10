@@ -66,7 +66,7 @@ function renderCatInfo(obj) {
 
 function catInfoMarkUp({ url, name, desc, temp }) {
   return `
-    <div class="picture">
+    <div>
       <img src="${url}" alt="${name}">
     </div>
     <div class="about">

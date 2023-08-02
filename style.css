@@ -18,7 +18,9 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
 }
 
 .breed-select {
