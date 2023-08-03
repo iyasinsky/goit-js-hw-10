@@ -31,6 +31,7 @@ function onSelectChange(e) {
   }
 
   refs.container.innerHTML = '';
+  refs.error.hidden = true;
   refs.loader.hidden = false;
 
   const breedId = e.target.value;
