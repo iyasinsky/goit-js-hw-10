@@ -4,8 +4,8 @@ import CatApi from './cat-api';
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-import './style.css';
-import './node_modules/slim-select/dist/slimselect.css';
+import '../css/style.css';
+import '../../node_modules/slim-select/dist/slimselect.css';
 
 const catApi = new CatApi();
 
@@ -30,7 +30,9 @@ function onSelectChange(e) {
     return;
   }
 
+  refs.container.innerHTML = '';
   refs.loader.hidden = false;
+
   const breedId = e.target.value;
 
   catApi
